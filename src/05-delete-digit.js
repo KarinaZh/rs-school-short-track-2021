@@ -10,7 +10,13 @@
  *
  */
 function deleteDigit(/* n */) {
-  throw new Error('Not implemented');
+  /**
+  *const str = n.toString().split('');
+  *const a = str.sort().reverse();
+  *a.length -= 1;
+  *return +a.join('');
+  *
+  */
 }
 
 module.exports = deleteDigit;
